@@ -8,26 +8,40 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - utter_chitchat
+
+entities:
+- PERSON
+- NORP
+- FAC
+- ORG
+- GPE
+- LOC
+- PRODUCT
+- EVENT
+- WORK_OF_ART
+- LAW
+- LANGUAGE
+- DATE
+- TIME
+- PERCENT
+- MONEY
+- QUANTITY
+- ORDINAL
+- CARDINAL
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+actions:
+- extract_entity
 
 session_config:
   session_expiration_time: 60

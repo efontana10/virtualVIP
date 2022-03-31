@@ -49,43 +49,30 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: utter_chitchat
+  examples: |
+    - Do you like Brad Pitt?
+    - Micheal said it was important
+    - I heard Jessica is learning hip hop
+    - Do you like Brad Pitt?
+    - I met a chinese student yesterday
+    - I love your picture under the Eiffel Tower
+    - Working at Meta is very challenging
+    - My dream is to visit Japan during spring
+    - We're having pizza for dinner
+    - Where do the next Olimpics take place?
+    - Did you read Harry Potter?
+    - I hope to lean german soon
+    - My birthday is 12th February
+    - I'll meet you at 6 then
+    - Are you 100% sure?
+    - Micheal bought this TV for 500 euros.
+    - What's the first thing you do in the morning?
+    - My favourite number is 10

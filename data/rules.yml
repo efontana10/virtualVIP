@@ -11,3 +11,9 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+
+- rule: Entity extraction
+  steps:
+  - intent: utter_chitchat
+  - action: extract_entity
