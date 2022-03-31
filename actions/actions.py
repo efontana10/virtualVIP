@@ -21,6 +21,6 @@ class ActionExtractEntity(Action):
         entities = prediction['entities']
         # print(json.dumps(entities, sort_keys=False, indent=4))
         returnMessage = [{'entityType': entity['entity'], 'entityValue': entity['value']} for entity in entities]
-        dispatcher.utter_message(json.dumps(returnMessage))
+        dispatcher.utter_message(json_message=returnMessage)
 
         return []
